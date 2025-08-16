@@ -1,0 +1,24 @@
+title: "짧은 단편들"
+description: "간단한 내용을 공유하는 공간입니다."
+baseurl: "/" # 저장소 이름이 my-blog인 경우
+url: "https://idlock.github.io" # 본인의 GitHub Pages URL
+theme: "minima"
+paginate: 5
+lang: "ko_KR"
+timezone: "Asia/Seoul"
+
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "page"
